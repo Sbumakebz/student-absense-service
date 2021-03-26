@@ -1,0 +1,25 @@
+application:
+  servers:
+    -   ip: '127.0.0.1'
+        path: '/students'
+  
+info.service-identifier: "${spring.application.name}"
+
+server: 
+  port: 8080
+ 
+spring:
+ profiles.active: local
+ profiles: local
+ environment.name: local
+ datasource:
+  driver-class-name: oracle.jdbc.driver.OracleDriver
+  password: dataBasePass
+  url: jdbc:oracle:thin:@localhost:1521:xe
+  username: student_absense_admin
+
+
+
+
+
+

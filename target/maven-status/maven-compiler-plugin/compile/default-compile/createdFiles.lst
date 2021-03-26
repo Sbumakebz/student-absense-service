@@ -1,0 +1,7 @@
+com\sibusiso\cgsi\model\StudentAbsense.class
+com\sibusiso\cgsi\model\StudentAbsenseMapper.class
+com\sibusiso\cgsi\SecurityConfiguration.class
+com\sibusiso\cgsi\controller\StudentAbsenseManagementController.class
+com\sibusiso\cgsi\StudentAbsenseManagementApplication.class
+com\sibusiso\cgsi\repository\StudentAbsenseRepository.class
+com\sibusiso\cgsi\model\Teacher.class
